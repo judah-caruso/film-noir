@@ -5,8 +5,8 @@
 " Forked From: Andreas van Cranenburgh [vim-256noir] <andreas@unstable.nl>
 
 " Description:
-"   A minimal Vim theme, focusing on clarity and simplicity. Based off of the
-"   theme 'vim-256noir' by Andreas van Cranenburgh <https://github.com/andreasvc/vim-256noir>
+"   A minimal vim colorscheme, focusing on clarity and simplicity. Based off of the
+"   colorscheme 'vim-256noir' by Andreas van Cranenburgh <https://github.com/andreasvc/vim-256noir>
 
 highlight clear
 set background=dark

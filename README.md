@@ -1,9 +1,9 @@
 Film Noir
 ---------
 
-A minimal Vim theme, focusing on clarity and simplicity.
+A minimal vim colorscheme, focusing on clarity and simplicity.
 
-Based off of the theme ["vim-256noir"](https://github.com/andreasvc/vim-256noir/) by [Andreas van Cranenburgh](https://github.com/andreasvc).
+Based off of the colorscheme ["vim-256noir"](https://github.com/andreasvc/vim-256noir/) by [Andreas van Cranenburgh](https://github.com/andreasvc).
 
 # Installation
 
