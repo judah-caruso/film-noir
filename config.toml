@@ -1,0 +1,114 @@
+[Information]
+Name = "Film Noir"
+Version = "1.0.0"
+
+
+# Colors:
+#   Red:
+#     196 - Main
+#     160 - Shade 2
+#     124 - Shade 3
+#     88  - Darkest Shade
+#   Green:
+#     46  - Main
+#     40  - Shade 2
+#     34  - Shade 3
+#     22  - Darkest Shade
+#   Blue:
+#     21  - Main
+#     20  - Shade 2
+#     19  - Shade 3
+#     18  - Darkest Shade
+
+
+# Color codes arranged from darkest to lightest.
+# Codes prefixed by "*" are output as "DarkColorName"
+[Theme.Colors]
+Red   = {hex=["*830457", "c13f7c", "c54b91", "ff549f"], term=[88, 124, 160, 196]}
+Green = {hex=["*669d33", "7cc13f", "91c54b", "9fff54"], term=[22, 34, 40, 46]}
+Blue  = {hex=["*33669d", "3f7cc1", "4b91c5", "549fff"], term=[18, 19, 20, 21]}
+Grey  = {hex=["*1c1c1c", "*303030", "*585858", "8a8a8a", "bcbcbc", "d0d0d0"], term=[234, 236, 240, 245, 250, 252]}
+Black = {hex=["000000", "080808", "121212"], term=[16, 232, 233]}
+White = {hex=["eeeeee"], term=[255]}
+
+[Theme.Red]
+String          = {fg=196, bg=16,  term=-1}
+Comment         = {fg=88,  bg=16,  term=-1}
+Number          = {fg=196, bg=16,  term=-1}
+Error           = {fg=255, bg=88,  term=-1}
+ErrorMsg        = {fg=255, bg=124, term=-1}
+DiffChange      = {fg=124, bg=255, term=-1}
+DiffText        = {fg=250, bg=196, term=["bold"]}
+SignColumn      = {fg=124, bg=240, term=-1}
+SpellBad        = {fg=255, bg=88,  term=["undercurl"]}
+SpellRare       = {fg=196, bg=88,  term=-1}
+SpellCap        = {fg=255, bg=88,  term=-1}
+
+[Theme.Green]
+String          = {fg=46,  bg=16,  term=-1}
+Comment         = {fg=22,  bg=16,  term=-1}
+Number          = {fg=46,  bg=16,  term=-1}
+Error           = {fg=255, bg=22,  term=-1}
+ErrorMsg        = {fg=255, bg=34,  term=-1}
+DiffChange      = {fg=22,  bg=255, term=-1}
+DiffText        = {fg=255, bg=22,  term=["bold"]}
+SignColumn      = {fg=46,  bg=240, term=-1}
+SpellBad        = {fg=255, bg=22,  term=["undercurl"]}
+SpellRare       = {fg=46,  bg=22,  term=-1}
+SpellCap        = {fg=255, bg=22,  term=-1}
+
+[Theme.Blue]
+String          = {fg=21,  bg=16,  term=-1}
+Comment         = {fg=18,  bg=16,  term=-1}
+Number          = {fg=21,  bg=16,  term=-1}
+Error           = {fg=255, bg=18,  term=-1}
+ErrorMsg        = {fg=255, bg=18,  term=-1}
+DiffChange      = {fg=18,  bg=255, term=-1}
+DiffText        = {fg=255, bg=21,  term=["bold"]}
+SignColumn      = {fg=21,  bg=240, term=-1}
+SpellBad        = {fg=255, bg=18,  term=["undercurl"]}
+SpellRare       = {fg=21,  bg=18,  term=-1}
+SpellCap        = {fg=255, bg=18,  term=-1}
+
+[Theme.Highlights]
+Normal = ["Boolean", "Delimiter", "Identifier", "Title", "Debug","Exception", "FoldColumn", "Macro", "ModeMsg", "MoreMsg", "Question"]
+Keyword = ["Conditional", "Statement", "Operator", "Structure", "Function", "Include", "Type", "Typedef", "Todo", "Label", "Define", "DiffAdd", "diffAdded", "diffCommon", "Directory", "PreCondit", "PreProc", "Repeat", "Special", "SpecialChar", "StorageClass"]
+String = ["SpecialComment", "CursorLineNr"]
+Number = ["Character", "Float", "Tag", "Folded", "WarningMsg"]
+SpecialKey = ["iCursor"]
+SpellCap = ["SpellLocal"]
+Comment = ["LineNr", "NonText", "DiffDelete", "diffRemoved"]
+Visual = ["PmenuSbar", "PmenuSel", "VisualNOS", "VertSplit"]
+StatusLine = ["Cursor"]
+SpellRare = ["Underlined", "rstEmphasis", "ColorColumn"]
+DiffChange = ["diffChanged"]
+
+[Theme.Base]
+# Should be overwritten based on theme
+String          = {fg=250, bg=16, term=-1}
+Comment         = {fg=240, bg=16, term=-1}
+Number          = {fg=250, bg=16, term=-1}
+Error           = {fg=255, bg=16, term=-1}
+ErrorMsg        = {fg=255, bg=16, term=-1}
+DiffChange      = {fg=16, bg=255, term=-1}
+DiffText        = {fg=250, bg=16, term=["bold"]}
+SignColumn      = {fg=250, bg=240, term=-1}
+SpellBad        = {fg=255, bg=16, term=["undercurl"]}
+SpellRare       = {fg=250, bg=16, term=-1}
+SpellCap        = {fg=250, bg=16, term=-1}
+# Left on default most of the time
+Normal          = {fg=250, bg=16, term=-1}
+Keyword         = {fg=255, bg=16, term=-1}
+Constant        = {fg=252, bg=16, term=-1}
+Search          = {fg=245, bg=236, term=-1}
+IncSearch       = {fg=255, bg=245, term=["reverse"]}
+WildMenu        = {fg=240, bg=255, term=-1}
+Pmenu           = {fg=255, bg=240, term=-1}
+PmenuThumb      = {fg=232, bg=240, term=-1}
+SpecialKey      = {fg=16, bg=255, term=-1}
+MatchParen      = {fg=16, bg=240, term=-1}
+CursorLine      = {fg=-1, bg=233, term=-1}
+StatusLine      = {fg=245, bg=16, term=["bold", "reverse"]}
+StatusLineNC    = {fg=236, bg=16, term=["reverse"]}
+Visual          = {fg=250, bg=16, term=["reverse"]}
+TermCursor      = {fg=-1, bg=-1, term=["reverse"]}
